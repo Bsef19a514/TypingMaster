@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-div {
+    /* border: 1px solid rgb(116, 110, 110); */
+    color: white;
+    background-color: rgb(41, 121, 212);
+    height: 60px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+
+.main-div {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center-div {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid blue; */
+    font-size: 10px;
+}
+
+.msg-div {
+    height: 40vw;
+    /* border: 1px solid green; */
+}
+
+.input-div {
+    /* padding-top: 10px; */
+    height: 70vw;
+    /* border: 1px solid purple; */
+}
+
+.watch {
+    height: 30px;
+    text-align: center;
+    color: green;
+}
+
+#inputTextArea {
+    margin-top: 10px;
+    width: 100%;
+    height: 50vw;
+    resize: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    overflow-y: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-div {
+    /* height: 10px; */
+    /* margin-top: 15px; */
+    /* border: 1px solid pink; */
+    height: 50px;
+}
+
+.submit-btn {
+    left: 40%;
+    position: absolute;
+    /* right: auto; */
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: green;
+    width: 80px;
+    height: 35px;
+}
+
+.submit-btn:hover {
+    color: white;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid green;
+    width: 80px;
+    height: 35px;
+}
+
+.result-div {
+    margin-top: 10%;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 40px;
+}
+
+.accuracy-div {
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.speed-div {
+    text-align: center;
+}
+
+#speed {
+    font-size: medium;
+}
+
+#accuracy {}
+
+#result {
+    color: rgb(83, 135, 194)
+}
+
+.hidden {
+    display: none;
+}

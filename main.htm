@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel='stylesheet' media='screen and (min-width: 300px) and (max-width: 450px)' href='mobile.css' />
+    <link rel='stylesheet' media='screen and (min-width: 451px) and (max-width: 2000px)' href='style.css' />
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="header-div">
+            <h1>Typing Master</h1>
+        </div>
+        <div class="center-div">
+            <div class="msg-div">
+                <h2 id="msg" onmousedown="return false" onselect="return false"></h2>
+            </div>
+            <div class="input-div">
+                <h2 class="watch"></h2>
+                <textarea id="inputTextArea" placeholder="Write here..."></textarea>
+            </div>
+            <div class="btn-div">
+                <button class="submit-btn" id="btn">Start</button>
+            </div>
+            <div class="result-div">
+                <div class="speed-div">
+                    <h1 class="hidden" id="result">Speed <i class="far">&#xf254</i></h1>
+                    <h1 id="speed"></h1>
+                </div>
+                <div class="accuracy-div">
+                    <h1 class="hidden" id="result">Accuracy <i class="fa">&#xf012</i></h1>
+                    <h1 id="accuracy"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
